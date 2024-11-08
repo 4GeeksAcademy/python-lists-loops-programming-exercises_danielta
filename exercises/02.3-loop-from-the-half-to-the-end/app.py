@@ -5,5 +5,5 @@ inicial_value = 0
 stop_value = 0
 increase_value = 0
 
-for i in range(inicial_value, stop_value, increase_value):
+for i in range((len(my_list)//2), len(my_list)):
     print(my_list[i])

@@ -1,7 +1,13 @@
 people = ['juan','ana','michelle','daniella','stefany','lucy','barak']
 
 def delete_person(person_name):
-    # Your code here
+    new_list=[]
+    for i in range(0,len(people)):
+        if people[i].lower() != person_name:
+            new_list.append(people[i])
+        else:
+            None
+    return(new_list)
     
 
     
